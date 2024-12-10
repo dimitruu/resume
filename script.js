@@ -13,6 +13,6 @@ button.addEventListener('click', function(){
     document.body.classList.toggle('dark-mode', isDarkMode);
 
     button.textContent = isDarkMode ? 
-     'Змінити на світлу тему' ;
+     'Змінити на світлу тему':
      'Змінити на темну тему';
 })
